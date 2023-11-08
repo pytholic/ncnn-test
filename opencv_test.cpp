@@ -18,7 +18,7 @@ int main() {
     std::cout << "Could not read the image: " << imagePath << std::endl;
     return 1;
   }
-  imsho("Display window", img);
+  imshow("Display window", img);
   while (true) {
     int key = waitKey(1);
     if (key == 27 || key == 'q') { // Esc key or 'q' key
